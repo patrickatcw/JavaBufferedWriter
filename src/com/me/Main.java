@@ -3,6 +3,21 @@ package com.me;
 //https://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html
 //https://docs.oracle.com/javase/7/docs/api/java/io/BufferedWriter.html
 
+//changes made to program
+/*
+- modify program so that it uses a bufferedreader to read in the
+locations data
+- modify the main method of the locations class so that it uses
+a buffreredwriter to write the data
+open the locations.txt and directions.txt files to check that the
+data has been written successfully
+- make change to the program to allow for the 0 (quit) exits
+before using the newly created files
+- change the 3 instances of hashmap to linkedhashmap in the
+location class ans one instance in the locations class so that you can compare the files
+more easily
+ */
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
